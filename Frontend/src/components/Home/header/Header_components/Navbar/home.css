@@ -1,0 +1,18 @@
+.Nav_Home_Button
+{
+    background-color: transparent;
+    border: none;
+    color: rgb(14, 14, 14);
+    font-size: 1rem;
+    cursor: pointer;
+}
+.Nav_Login_Button
+{
+    background-color: #1C443C;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    cursor: pointer;
+}

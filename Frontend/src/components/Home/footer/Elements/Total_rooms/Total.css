@@ -1,0 +1,13 @@
+.Total_Main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    height: 80%;
+    color: white;
+    gap: 10px;
+    border-radius: 20px;
+}
+.Total_Main p{
+    font-size: 15px;
+}

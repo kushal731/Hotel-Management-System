@@ -1,0 +1,15 @@
+.Happy_Main{
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15%;
+    height: 80%;
+    color: white;
+    gap: 10px;
+    border-radius: 20px;&:hover {
+        background-color: #063f1f;
+    }
+}
+.Happy_Main p{
+    font-size: 15px;
+}

@@ -1,0 +1,20 @@
+/* heading.css */
+
+.main_Heading {
+  padding: 20px 30px;
+}
+
+.Heading1,
+.Heading2 {
+  font-family: "Playfair Display", serif; /* or Georgia */
+  font-size: 45px;
+  font-weight: 700;
+  color: #183d36;   /* dark green */
+  line-height: 1.05;
+  margin: 0;
+}
+
+.Heading2 {
+    /* space between headings */
+  margin-top: -5px;   /* keeps it close like image */
+}

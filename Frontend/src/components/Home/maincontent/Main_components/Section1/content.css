@@ -1,0 +1,29 @@
+.content_main {
+  padding: 10px 30px;
+}
+
+.p {
+  font-family: "Inter", "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #6b7280;       /* gray like image */
+  line-height: 1.6;
+  margin: 0;
+}
+.p1{
+    margin-left: -155px; /* space between paragraphs */
+    font-family: "Inter", "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #6b7280;       /* gray like image */
+  line-height: 1.6;
+  margin: 0;
+}
+.p2{
+    font-family: "Inter", "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #6b7280;       /* gray like image */
+  line-height: 1.6;
+  margin: 0;
+}
