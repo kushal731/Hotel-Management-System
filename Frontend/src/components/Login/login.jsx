@@ -1,11 +1,89 @@
+import { useState } from "react";
+import './Login.css'
 
+const Login = () => {
+  const [isLogin, setIsLogin] = useState(false);``
 
-const login = () => {
   return (
-    <div>
-      hello
+    <div className="container">
+      <div className="card">  
+
+        {/* LEFT SIDE */}
+        <div className="left-panel">
+          <div className="logo-section">
+            <img src="/lotus-logo.png" alt="Lotus Logo" className="logo" />
+            <h1>Luxury Resort</h1>
+          </div>
+
+          <p>
+            Discover premium hospitality with comfort, luxury, and unforgettable
+            experiences designed for your perfect stay.
+          </p>
+        </div>
+
+        {/* RIGHT SIDE */}
+        <div className="right-panel">
+
+          {/* TAB BUTTONS */}
+          <div className="tab-buttons">
+            <button
+              className={!isLogin ? "active" : ""}
+              onClick={() => setIsLogin(false)}
+            >
+              REGISTER
+            </button>
+
+            <button
+              className={isLogin ? "active" : ""}
+              onClick={() => setIsLogin(true)}
+            >
+              LOGIN
+            </button>
+          </div>
+
+          {/* REGISTER FORM */}
+          {!isLogin ? (
+            <form className="form">
+
+              <input type="text" placeholder="First Name" />
+
+              <input type="email" placeholder="Email" />
+
+              <input type="password" placeholder="Create Password" />
+
+              <input type="password" placeholder="Retype Password" />
+
+              <div className="checkbox">
+                <input type="checkbox" />
+                <label>
+                  I agree to <span>Terms of Use</span> &{" "}
+                  <span>Privacy Policy</span>
+                </label>
+              </div>
+
+              <button className="submit-btn">REGISTER</button>
+            </form>
+          ) : (
+            /* LOGIN FORM */
+            <form className="form">
+
+              <input type="email" placeholder="Email" />
+
+              <input type="password" placeholder="Password" />
+
+              <div className="forgot">
+                <a href="/">Forgot Password?</a>
+              </div>
+
+              <button className="submit-btn">LOGIN</button>
+            </form>
+          )}
+        </div>
+      </div>
     </div>
   )
 }
 
-export default login
+export default Login
+
+
