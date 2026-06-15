@@ -1,8 +1,8 @@
 import { useState } from "react";
 import './Login.css'
-
+import Lutus from "../../assets/Lutus.png";
 const Login = () => {
-  const [isLogin, setIsLogin] = useState(false);``
+  const [isLogin, setIsLogin] = useState(false);
 
   return (
     <div className="container">
@@ -11,9 +11,10 @@ const Login = () => {
         {/* LEFT SIDE */}
         <div className="left-panel">
           <div className="logo-section">
-            <img src="/lotus-logo.png" alt="Lotus Logo" className="logo" />
-            <h1>Luxury Resort</h1>
+            <img src={Lutus} alt="Logo" className="logo" />
+            
           </div>
+          <h1>Luxury Resort</h1>
 
           <p>
             Discover premium hospitality with comfort, luxury, and unforgettable
@@ -74,8 +75,8 @@ const Login = () => {
               <div className="forgot">
                 <a href="/">Forgot Password?</a>
               </div>
-
-              <button className="submit-btn">LOGIN</button>
+              <a href="/"><button className="submit-btn">LOGIN</button></a>
+              
             </form>
           )}
         </div>

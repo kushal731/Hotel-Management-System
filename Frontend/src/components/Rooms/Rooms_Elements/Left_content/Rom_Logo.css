@@ -1,0 +1,27 @@
+.Rom_logo {
+      display: flex;
+      align-items: center;
+      font-family: serif;
+      color: #064420; /* dark green */
+    }
+    .Rom_logo-box {
+      width: 50px;
+      height: 50px;
+      background-color: #064420;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 10px;
+    }
+    .Rom_logo-box h1 {
+        background-color: white;
+      color: #064420;
+      padding: 8px;
+      border-radius: 2px;
+      font-size: 28px;
+      margin: 0;
+    }
+    .Rom_logo-text {
+      font-size: 28px;
+      color: aliceblue;
+    }

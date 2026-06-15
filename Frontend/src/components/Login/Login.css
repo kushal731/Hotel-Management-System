@@ -38,8 +38,9 @@
 }
 
 .logo {
-  width: 100px;
-  margin-bottom: 20px;
+  width: 500px;
+  margin-bottom: -120px;
+  background-color: transparent;
 }
 
 .left-panel h1 {
@@ -48,6 +49,8 @@
   font-weight: 300;
   margin-bottom: 40px;
 }
+
+
 
 .left-panel p {
   width: 80%;

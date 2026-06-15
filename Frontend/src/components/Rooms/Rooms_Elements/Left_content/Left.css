@@ -1,0 +1,19 @@
+.Left_Content{
+    padding: 30px;
+    background-color: #1C443C;
+    width: 230px;
+    height: auto;
+    color: #ffffff;
+    display: flex;          /* enables flexbox */
+  flex-direction: column; /* stacks children vertically */
+  
+  justify-content: space-between;
+  gap: 20px;
+
+}
+.Rom_Logo_Container{
+    margin-bottom: 30px;
+}
+.Slide_items{
+    margin-bottom: 100px;
+}

@@ -1,0 +1,16 @@
+.Rooms_Main {
+  display: grid;
+  grid-template-columns: 230px 1fr; /* left fixed, right flexible */
+  gap: 20px;
+ 
+}
+
+.Rm_LFT_MAin {
+  background: #1C443C; /* optional styling */
+
+}
+
+.Rm_Rth_MAin {
+  background: #ffffff; /* optional styling */
+  padding: 15px;
+}

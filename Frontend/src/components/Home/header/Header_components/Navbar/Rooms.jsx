@@ -3,7 +3,7 @@
 const Rooms = () => {
   return (
     <div>
-      <a href="/rooms"><button className="Nav_Home_Button">Rooms</button></a>
+      <a href="/Rooms"><button className="Nav_Home_Button">Rooms</button></a>
     </div>
   )
 }
