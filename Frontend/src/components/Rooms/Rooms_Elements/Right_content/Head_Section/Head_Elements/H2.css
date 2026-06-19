@@ -1,0 +1,14 @@
+.H2_Rooms {
+  font-size: 24px;
+  font-weight: bold;
+  background: black;
+  -webkit-background-clip: text;   /* Chrome, Safari */
+  -moz-background-clip: text;      /* Older Firefox (limited support) */
+  -o-background-clip: text;        /* Opera (legacy) */
+  background-clip: text;           /* Standard property */
+text-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+  -webkit-text-fill-color: transparent; /* Required for WebKit browsers */
+  color: transparent; /* Fallback */
+
+  -webkit-text-fill-color: transparent;
+}

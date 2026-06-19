@@ -1,6 +1,6 @@
 // import React from 'react'
 import "./Left.css";
-
+import { useNavigate } from "react-router-dom";
 import Rom_Logo from "./Rom_Logo";
 import Slide_Bookings from "./Slide_bar/Slide_Bookings";
 import Slide_Dashboard from "./Slide_bar/Slide_Dashboard";
@@ -12,10 +12,17 @@ import Reports_Slide from "./Slide_bar/Reports_Slide";
 import Slide_Settings from "./Slide_bar/Slide_Settings";
 import Slide_Logout from "./Slide_bar/Slide_Logout";
 const Left = () => {
+   const navigate = useNavigate();
+  function demo1() {
+    navigate("/"); // safe navigation
+  }
   return (
     <div className="Left_Content">
       <div className="Rom_Logo_Container">
-        <Rom_Logo />
+        <button onClick={demo1}>
+<Rom_Logo />
+        </button>
+        
       </div>
       <div className="Slide_items">
         <Slide_Dashboard />
@@ -31,5 +38,6 @@ const Left = () => {
     </div>
   );
 };
+
 
 export default Left;

@@ -17,3 +17,7 @@
 .Slide_items{
     margin-bottom: 100px;
 }
+button{
+    background: transparent;
+    border: none;
+}
