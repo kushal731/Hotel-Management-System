@@ -1,0 +1,18 @@
+/* RoomTableHeader.css */
+.table-header {
+  background: rgb(250, 245, 245);
+  color: #000000;
+  display: flex;
+  text-align: left;
+width: 75vw;
+height: 70px;
+padding: 12px;
+border-radius: 7px 7px 0px 0px;
+}
+
+.table-header th {
+  padding: 12px 16px;
+  font-size: 16px;
+  font-weight: 600;
+  
+}

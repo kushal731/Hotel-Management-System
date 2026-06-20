@@ -3,6 +3,8 @@ import Breadcrumb from "./Head_Elements/Breadcrumb";
 import H2 from "./Head_Elements/H2";
 import Input_bar from "./Head_Elements/Input_bar";
 import Option from "./Head_Elements/Option";
+import RoomsTable from "./Head_Elements/RoomsTable";
+
 import "./Head_main_part.css";
 const Head_main = () => {
   return (
@@ -17,8 +19,12 @@ const Head_main = () => {
         <Option />
         <Add_Rooms />
       </div>
-      </div>
       
+      </div>
+      <div>
+        <RoomsTable/>
+
+      </div>
     </div>
   );
 };

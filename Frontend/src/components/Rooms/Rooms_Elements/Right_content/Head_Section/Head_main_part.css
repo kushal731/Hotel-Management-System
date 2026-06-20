@@ -1,6 +1,7 @@
 .Head_main_part{
  background-color: rgb(255, 255, 255);
  height: 100px;
+ 
 }
 .Head_main_part H2{
     margin-bottom: 10px;
@@ -15,4 +16,5 @@
   display: flex;
   align-items: center;
   gap: 12px;
+  
 }
